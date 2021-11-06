@@ -62,7 +62,7 @@ router.put('/:id', (req, res) => {
   })
   .then(tagData => {
     if(!tagData){
-      res.status(404).json( { message: `No tag found with this ID!`});
+      res.status(404).json( { message: `No tag is found with this ID!`});
     }
     res.json(tagData);
   })
@@ -79,7 +79,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(tagData => {
     if(!tagData){
-      res.status(404).json({ message: ` No tag found with this ID!`});
+      res.status(404).json({ message: ` No tag is found with this ID!`});
     }
     res.json(tagData);
   })

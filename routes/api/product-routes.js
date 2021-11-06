@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   // be sure to include its associated Category and Tag data
 
   Product.findAll({
-    attributes: ['product_name', 'price', 'stock','category_id'],
+    attributes: ['id', 'product_name', 'price', 'stock'],
     include: [
       {
         model: Category,
@@ -37,7 +37,7 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['product_name', 'price', 'stock','category_id'],
+    // attributes: ['id','product_name', 'price', 'stock'],
     include: [
       {
         model: Category,
@@ -151,7 +151,7 @@ router.delete('/:id', (req, res) => {
   })
   .then(productData => {
     if(!productData){
-      res.status(404).json( { message: `No product is found with this ID~`});
+      res.status(404).json( { message: `No product is found with this ID!`});
     }
     res.json(productData);
   })
