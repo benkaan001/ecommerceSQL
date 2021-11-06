@@ -38,23 +38,30 @@
 
   Use the following url to clone the repository:
 
-  `< git clone https://github.com/benkaan001/ecommerceSQL>`
+  `git clone https://github.com/benkaan001/ecommerceSQL`
 
 
-  Run the following command on your terminal to install the dependency node package libraries:
+  Run the following command on your terminal to install the dependency libraries:
 
-  `<npm init>`
+  `npm init -y`
 
-  `< npm i express>`
-  `< npm i mysql2>`
-  `< npm i sequelize>`
-  `< npm i dotenv>`
+  `npm i express`
+
+  `npm i mysql2`
+
+  `npm i sequelize`
+
+  `npm i dotenv`
+
 
    ...
 
-   Note that nodemon mpm package is recommended to automatically restart the application/reconnect to the server 
 
-  `<npm install --save-dev nodemon>`
+   Note that nodemon package is recommended to automatically restart the application/reconnect to the server. 
+
+  `npm install -g nodemon` 
+
+   Additionally, it is recommended that you create and update your `.env` file with the appropriate `DB_NAME=`'databasename' `DB_USER=`'usernameforSQL' `DB_PW=`'password' 
 
 
   ## Usage
@@ -64,7 +71,7 @@
   `<mysql -u root -p>`
 
 
-  To populate the database, then, run:
+  To populate the data, then, run:
 
   `<source db/schema.sql>`
 
