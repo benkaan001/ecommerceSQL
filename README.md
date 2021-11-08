@@ -1,5 +1,5 @@
 
-<h1 align="center">ecommerceSQL / Object Relational Mapping(ORM)</h1>
+<h1 align="center">ecommerceSQL featuring Object Relational Mapping(ORM)</h1>
   
 <p align="center">
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
@@ -101,7 +101,9 @@
 
   ![demo gif]()
   
-  Check out the deployed application on -[screencastify]()
+  Check out the deployed application on 
+  PART 1 -[screencastify](https://watch.screencastify.com/v/pJ8flw8PsZ2OwKheIfzx)
+  PART 2 -[screencastify](https://watch.screencastify.com/v/M2Wxsq8plDzf5tQZYlI0)
  
 
 
