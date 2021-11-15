@@ -1,5 +1,6 @@
 
-<h1 align="center">ecommerceSQL featuring Object Relational Mapping(ORM)</h1>
+<h1 align="center">Object Relational Mapping(ORM)</h1>
+<h2 align="center">ecommerceSQL</h2>
   
 <p align="center">
     <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>
@@ -9,7 +10,6 @@
     <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
     <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"  />
     <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" />
-    <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" />
 </p>
 
   ## Table of Contents
@@ -46,33 +46,29 @@
 
   To connect to the MySQL shell, run the following command on your terminal and enter user credentials for MySQL:
 
-  `<mysql -u root -p>`
+  `mysql -u root -p`
 
 
   To create the schema from the MySQL shell, then, run:
 
-  `<source db/schema.sql>`
+  `source db/schema.sql`
 
 
   To exit mySQL, run: 
 
-  `<exit>`
+  `exit`
 
   Then, seed the database with the following command:
 
-  `<npm run seed>`
+  `npm run seeds`
 
 
   Lastly, initate the server with:
 
-  `<npm start>`
-
-  Or, with recommended <nodemon> package:
-
-  `<nodemon server.js>`
+  `npm start`
 
 
-  To disconnect the server, press <command+C>
+  To disconnect the server, press `command+C`
 
  
 
